@@ -1,6 +1,6 @@
 # Nucamp Practice Website
 
-This is a practice site for Nucamp. It utilizes html, css (leveraing bootstrap).
+This is a practice site for Nucamp follow the class lessons. It utilizes html and css (leveraging bootstrap).
 
 ## Setup
 
