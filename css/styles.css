@@ -38,8 +38,7 @@ header h2 {
   background-color: #901cad;
 }
 
-.tab-content {
-  border: 1px solid #ddd;
-  border-top: none;
-  padding: 10px;
+#accordian a {
+  text-decoration: none;
+  color: inherit;
 }
