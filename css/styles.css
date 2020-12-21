@@ -1,3 +1,12 @@
+:root {
+  /* Main colors found at: https://coolors.co/533747-5f506b-6a6b83-76949f-86bbbd */
+  --off-gray: #c6c5b9;
+  --light-teal: #62929e;
+  --pale-teal: #4a6d7c;
+  --army-green: #393a10;
+  --gray-teal: #475657;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -5,11 +14,11 @@ body {
 h1,
 h2,
 h3 {
-  font-family: 'Lobster', cursive;
+  font-family: 'B612', 'Lobster', cursive;
 }
 
 h2 {
-  color: #3046c5;
+  color: #4a6d7c;
 }
 
 header h2 {
@@ -17,13 +26,17 @@ header h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#cec8ff, white);
+  background-image: linear-gradient(var(--light-teal), white);
   padding: 20px 0;
 }
 
 .jumbotron {
   padding: 30px;
-  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+  background-image: linear-gradient(
+    to right,
+    var(--pale-teal),
+    var(--light-teal)
+  );
   color: white;
   margin: 0;
 }
@@ -35,7 +48,7 @@ header h2 {
 }
 
 .navbar {
-  background-color: #901cad;
+  background-color: var(--off-gray);
 }
 
 #accordian a {
@@ -47,6 +60,10 @@ header h2 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.carousel {
-  border: solid #5637dd;
+.card-header {
+  background-color: var(--light-teal);
 }
+
+/* .carousel {
+  border: solid #5637dd;
+} */
